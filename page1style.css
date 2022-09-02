@@ -1,0 +1,29 @@
+.maincontainer, .projectlorum, .about, .mission, .ourproject, .contactus {
+    display: flex;
+}
+.maincontainer {
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 73.125em;
+}
+
+.projectlorum {
+    border: 0.1em solid black;
+}
+
+.about {
+    border: 0.1em solid black;
+}
+
+.mission {
+    border: 0.1em solid black;
+}
+
+.ourproject {
+    border: 0.1em solid black;
+}
+
+.contactus {
+    border: 0.1em solid black;
+}
