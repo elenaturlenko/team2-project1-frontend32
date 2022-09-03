@@ -1,15 +1,15 @@
 .btnblack {
-    display: inline-block;
-    width: 222px;
-    height: 71px;
-    font-family: "Roboto";
-    font-size: 12px;
-    line-height: 12px;
-    line-height: 85%; 
-    letter-spacing: 0.2em;
-    color: #FFFFFF;
-    background-color: #333333;
-    border: none;
+  display: inline-block;
+  width: 222px;
+  height: 71px;
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 12px;
+  line-height: 85%;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #333333;
+  border: none;
 }
 .btn_btnwhite {
   display: inline-block;
@@ -24,4 +24,27 @@
   line-height: 12px;
   line-height: 85%;
   letter-spacing: 0.2em;
+}
+.btn_arrow-left,
+.btn_arrow-right {
+  width: 53px;
+  height: 53px;
+  color: #333333;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.pages-flick_btn {
+  width: 24px;
+  height: 48px;
+  color: #bdbdbd;
+  background-color: #fff;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  line-height: 85%;
+}
+.btn_01dark {
+  color: #333;
 }
