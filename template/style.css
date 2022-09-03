@@ -11,3 +11,17 @@
     background-color: #333333;
     border: none;
 }
+.btn_btnwhite {
+  display: inline-block;
+  width: 222px;
+  height: 71px;
+  color: #333333;
+  background-color: #fff;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 12px;
+  line-height: 85%;
+  letter-spacing: 0.2em;
+}
