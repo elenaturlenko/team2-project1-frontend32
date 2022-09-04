@@ -1,4 +1,4 @@
-.btnblack {
+.btn_btnblack {
   display: inline-block;
   width: 222px;
   height: 71px;
@@ -47,4 +47,30 @@
 }
 .btn_01dark {
   color: #333;
+}
+
+.formcontainer {
+  width: 420px;
+}
+
+.form_input-box, .form_message-box {
+width: 391px;
+margin: 5px;
+font-family: "Roboto";
+font-size: 14px;
+line-height: 16px;
+line-height: 85%;
+color: #8D8D8D;
+background-color: #F3F3F3;
+border: none;
+box-shadow: none;
+
+}
+.form_input-box {
+  height: 45px;
+}
+
+.form_message-box {
+  height: 147px;
+  resize: none; 
 }
