@@ -1,0 +1,17 @@
+.maincontainer,
+.heading,
+.project1,
+.project2,
+.project3,
+.buttons {
+  display: flex;
+}
+.maincontainer {
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 73.125em;
+}
+div {
+  border: 1px solid navy;
+}
