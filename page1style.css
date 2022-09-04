@@ -114,5 +114,60 @@ p.about-descr {
 }
 
 .contactus {
-  border: 0.1em solid black;
+  flex-direction: column;
+}
+.contactus_main {
+  display: grid;
+  grid-template-columns: 33% 64%;
+  grid-template-rows: 1fr 27%;
+  grid-gap: 30px;
+}
+h2.contactus-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd;
+}
+.contactus_btn {
+  justify-content: end;
+}
+.btn_btnblack {
+  display: inline-block;
+  width: 222px;
+  height: 71px;
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 12px;
+  line-height: 85%;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #333333;
+  border: none;
+}
+.formcontainer {
+  width: 420px;
+}
+
+.form_input-box,
+.form_message-box {
+  width: 391px;
+  margin: 5px;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  line-height: 85%;
+  color: #8d8d8d;
+  background-color: #f3f3f3;
+  border: none;
+  box-shadow: none;
+}
+.form_input-box {
+  height: 45px;
+}
+
+.form_message-box {
+  height: 147px;
+  resize: none;
 }
