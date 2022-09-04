@@ -1,29 +1,118 @@
-.maincontainer, .projectlorum, .about, .mission, .ourproject, .contactus {
-    display: flex;
+.maincontainer,
+.projectlorum,
+.about,
+.mission,
+.ourproject,
+.contactus {
+  display: flex;
 }
 .maincontainer {
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    width: 73.125em;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 73.125em;
 }
 
 .projectlorum {
-    border: 0.1em solid black;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-bottom: 120px;
 }
-
+h2.projectlorum-descr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  text-transform: uppercase;
+  color: #bdbdbd;
+  padding-right: 122px;
+}
+.projectlorum_heading {
+  padding-top: 270px;
+  padding-bottom: 46px;
+}
+h3.projectlorum-descr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  color: #333333;
+}
 .about {
-    border: 0.1em solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 120px;
+}
+.about_pic {
+  padding: 30px;
+}
+.about-2clmn {
+  padding-top: 60px;
+}
+h2.about-descr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd;
+}
+p.about-descr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #000;
+}
+.btn_btnwhite {
+  display: inline-block;
+  width: 222px;
+  height: 71px;
+  color: #333333;
+  background-color: #fff;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 12px;
+  line-height: 85%;
+  letter-spacing: 0.2em;
 }
 
+.btn_arrow-left,
+.btn_arrow-right {
+  width: 53px;
+  height: 53px;
+  color: #333333;
+  background-color: #f2f2f2;
+  border: none;
+}
+.pages-flick {
+  padding-top: 65px;
+}
+.pages-flick_btn {
+  width: 24px;
+  height: 48px;
+  color: #bdbdbd;
+  background-color: #fff;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  line-height: 85%;
+}
 .mission {
-    border: 0.1em solid black;
+  border: 0.1em solid black;
 }
 
 .ourproject {
-    border: 0.1em solid black;
+  border: 0.1em solid black;
 }
 
 .contactus {
-    border: 0.1em solid black;
+  border: 0.1em solid black;
 }
