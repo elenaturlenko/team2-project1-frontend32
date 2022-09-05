@@ -1,19 +1,19 @@
-.header{
+.header {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
 }
-.header__logo{
+.header__logo {
   width: 45px;
 }
-.header__menu{
+.header__menu {
   color: #333333f5;
   text-decoration: none;
   font-size: 0.5em;
   padding: 25px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.menu-active{
+.menu-active {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   padding-bottom: 1px;
@@ -66,6 +66,7 @@ h3.projectlorum-descr {
 
 .projectlorum_rightblock {
   width: 66%;
+  height: fit-content;
   background-image: url(./assets/images/1/1.png);
 }
 .projectlorum_rightblock .btn_btnwhite {
@@ -190,7 +191,7 @@ p.about-descr {
   resize: none;
 }
 
-.footer{
+.footer {
   display: grid;
   grid-template-columns: 250px 150px 380px 270px;
   grid-template-rows: 250px 50px;
@@ -199,65 +200,65 @@ p.about-descr {
   justify-items: center;
   margin-top: 80px;
 }
-.footer__logo{
+.footer__logo {
   width: 90px;
   padding-top: 38px;
 }
-.footer__menu{
+.footer__menu {
   padding-top: 25px;
   color: #ffffffe4;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 0.6em;
 }
-.footer__menu-breadcrumbs{
+.footer__menu-breadcrumbs {
   color: #ffffffdb;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 0.6em;
   line-height: 30px;
 }
-.breadcrumbs-email{
+.breadcrumbs-email {
   font-size: 1em;
 }
-.footer__menu-breadcrumbs:hover{
+.footer__menu-breadcrumbs:hover {
   text-decoration: underline;
 }
-.footer__menu-meta{
+.footer__menu-meta {
   color: #ffffffdb;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 0.6em;
   margin-top: 20px;
   line-height: 15px;
 }
-.telefon-sms{
+.telefon-sms {
   margin-top: 35px;
   line-height: 40px;
 }
-.icon{
+.icon {
   width: 10px;
   margin-right: 8px;
 }
-.icon-half-size{
+.icon-half-size {
   width: 7px;
 }
-.footer__menu-socials{
+.footer__menu-socials {
   display: flex;
   gap: 25px;
 }
-.facebook{
+.facebook {
   width: 6px;
 }
-.twitter{
+.twitter {
   width: 13px;
 }
-.linked{
+.linked {
   width: 11px;
 }
-.pinterest{
+.pinterest {
   width: 8px;
 }
-.row{
-  font-family: 'Open Sans', sans-serif;
+.row {
+  font-family: "Open Sans", sans-serif;
   color: rgba(200, 200, 200, 0.288);
   font-size: 0.5em;
   grid-column: 1/5;
@@ -266,6 +267,6 @@ p.about-descr {
   width: 1256px;
   text-align: center;
 }
-.row__copy{
+.row__copy {
   margin-top: 21px;
 }
