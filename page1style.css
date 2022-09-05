@@ -12,20 +12,21 @@
   margin: auto;
   width: 73.125em;
 }
-
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd;
+}
 .projectlorum {
   flex-direction: row;
   flex-wrap: nowrap;
   padding-bottom: 120px;
 }
 h2.projectlorum-descr {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 64px;
-  line-height: 64px;
   text-transform: uppercase;
-  color: #bdbdbd;
   padding-right: 122px;
 }
 .projectlorum_heading {
@@ -40,6 +41,15 @@ h3.projectlorum-descr {
   line-height: 64px;
   color: #333333;
 }
+
+.projectlorum_rightblock {
+  width: 66%;
+  background-image: url(./assets/images/1/1.png);
+}
+.projectlorum_rightblock .btn_btnwhite {
+  margin-top: 758px;
+}
+
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -51,14 +61,7 @@ h3.projectlorum-descr {
 .about-2clmn {
   padding-top: 60px;
 }
-h2.about-descr {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 64px;
-  line-height: 64px;
-  color: #bdbdbd;
-}
+
 p.about-descr {
   font-family: "Roboto";
   font-style: normal;
@@ -122,14 +125,7 @@ p.about-descr {
   grid-template-rows: 1fr 27%;
   grid-gap: 30px;
 }
-h2.contactus-heading {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 64px;
-  line-height: 64px;
-  color: #bdbdbd;
-}
+
 .contactus_btn {
   justify-content: end;
 }
