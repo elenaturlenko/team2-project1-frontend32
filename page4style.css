@@ -24,12 +24,12 @@
   padding-top: 1px;
 }
 
-
 .maincontainer,
 .project1-main {
   border: 1px solid navy;
   display: flex;
 }
+
 h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -38,6 +38,7 @@ h2 {
   line-height: 64px;
   color: #bdbdbd;
 }
+
 h3 {
   font-family: "Roboto";
   font-style: normal;
@@ -47,14 +48,12 @@ h3 {
   color: #333333;
 }
 
-
 .maincontainer {
   flex-direction: column;
   justify-content: center;
   margin: auto;
   width: 73.125em;
 }
-
 
 .footer {
   margin: auto;
