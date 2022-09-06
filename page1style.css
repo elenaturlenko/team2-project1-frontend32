@@ -24,7 +24,6 @@
 .projectlorum,
 .about,
 .mission,
-.ourproject,
 .contactus {
   display: flex;
 }
@@ -131,8 +130,68 @@ p.about-descr {
   border: 0.1em solid black;
 }
 
-.ourproject {
-  border: 0.1em solid black;
+.ourproject_header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd; 
+}
+
+.ourproject_pic-unit {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(9, 4vw);
+  grid-gap: 30px;
+}
+ 
+.ourproject__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+}
+ 
+.ourproject_item-1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+ 
+.ourproject_item-2 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+ 
+.ourproject_item-3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+ 
+.ourproject_item-4 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+ 
+.ourproject_item-5{
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+.btn-ourproject {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  grid-row-start: 9;
+  grid-row-end: 10;
 }
 
 .contactus {
