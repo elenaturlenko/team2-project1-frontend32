@@ -211,6 +211,7 @@ p.about-descr {
   line-height: 85%;
   letter-spacing: 0.2em;
 }
+
 .ourproject__item-2 {
   grid-column-start: 5;
   grid-column-end: 9;
