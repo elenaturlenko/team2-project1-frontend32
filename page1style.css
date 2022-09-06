@@ -3,9 +3,11 @@
   justify-content: space-around;
   margin-top: 20px;
 }
+
 .header__logo {
   width: 45px;
 }
+
 .header__menu {
   color: #333333f5;
   text-decoration: none;
@@ -13,6 +15,7 @@
   padding: 25px;
   font-family: "Roboto", sans-serif;
 }
+
 .menu-active {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
@@ -28,12 +31,14 @@
 .contactus {
   display: flex;
 }
+
 .maincontainer {
   flex-direction: column;
   justify-content: center;
   margin: auto;
   width: 73.125em;
 }
+
 h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -42,19 +47,23 @@ h2 {
   line-height: 64px;
   color: #bdbdbd;
 }
+
 .projectlorum {
   flex-direction: row;
   flex-wrap: nowrap;
   padding-bottom: 120px;
 }
+
 h2.projectlorum-descr {
   text-transform: uppercase;
   padding-right: 122px;
 }
+
 .projectlorum_heading {
   padding-top: 270px;
   padding-bottom: 46px;
 }
+
 h3.projectlorum-descr {
   font-family: "Roboto";
   font-style: normal;
@@ -69,6 +78,7 @@ h3.projectlorum-descr {
   height: fit-content;
   background-image: url(./assets/images/1/1.png);
 }
+
 .projectlorum_rightblock .btn_btnwhite {
   margin-top: 758px;
 }
@@ -78,9 +88,11 @@ h3.projectlorum-descr {
   grid-template-columns: 1fr 1fr 1fr;
   padding-bottom: 120px;
 }
+
 .about_pic {
   padding: 30px;
 }
+
 .about-2clmn {
   padding-top: 60px;
 }
@@ -94,6 +106,7 @@ p.about-descr {
   text-align: center;
   color: #000;
 }
+
 .btn_btnwhite {
   display: inline-block;
   width: 222px;
@@ -117,9 +130,11 @@ p.about-descr {
   background-color: #f2f2f2;
   border: none;
 }
+
 .pages-flick {
   padding-top: 65px;
 }
+
 .pages-flick_btn {
   width: 24px;
   height: 48px;
@@ -131,12 +146,108 @@ p.about-descr {
   line-height: 24px;
   line-height: 85%;
 }
+
 .mission {
   border: 0.1em solid black;
 }
 
 .ourproject {
-  border: 0.1em solid black;
+  flex-direction: column;
+}
+
+.ourproject__pic-unit {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(9, 4vw);
+  grid-gap: 30px;
+}
+
+.ourproject__header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd; 
+}
+
+.ourproject__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+}
+ 
+.ourproject__item-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  background-image: url(./assets/images/1/ourproject2.png);
+  
+}
+
+.ourproject__item-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+}
+
+.btn__btnwhite-ourptoject {
+  display: inline-block;
+  width: 222px;
+  height: 71px;
+  color: #ffffff;
+  background-color: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 12px;
+  line-height: 85%;
+  letter-spacing: 0.2em;
+}
+
+.ourproject__item-2 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+ 
+.ourproject__item-3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+ 
+.ourproject__item-4 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+ 
+.ourproject__item-5{
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+
+.btn-ourproject {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  grid-row-start: 9;
+  grid-row-end: 10;
 }
 
 .contactus {
@@ -152,6 +263,7 @@ p.about-descr {
 .contactus_btn {
   justify-content: end;
 }
+
 .btn_btnblack {
   display: inline-block;
   width: 222px;
@@ -165,6 +277,7 @@ p.about-descr {
   background-color: #333333;
   border: none;
 }
+
 .formcontainer {
   width: 420px;
 }
@@ -182,6 +295,7 @@ p.about-descr {
   border: none;
   box-shadow: none;
 }
+
 .form_input-box {
   height: 45px;
 }
@@ -200,16 +314,19 @@ p.about-descr {
   justify-items: center;
   margin-top: 80px;
 }
+
 .footer__logo {
   width: 90px;
   padding-top: 38px;
 }
+
 .footer__menu {
   padding-top: 25px;
   color: #ffffffe4;
   font-family: "Roboto", sans-serif;
   font-size: 0.6em;
 }
+
 .footer__menu-breadcrumbs {
   color: #ffffffdb;
   text-decoration: none;
@@ -217,12 +334,15 @@ p.about-descr {
   font-size: 0.6em;
   line-height: 30px;
 }
+
 .breadcrumbs-email {
   font-size: 1em;
 }
+
 .footer__menu-breadcrumbs:hover {
   text-decoration: underline;
 }
+
 .footer__menu-meta {
   color: #ffffffdb;
   font-family: "Roboto", sans-serif;
@@ -230,33 +350,42 @@ p.about-descr {
   margin-top: 20px;
   line-height: 15px;
 }
+
 .telefon-sms {
   margin-top: 35px;
   line-height: 40px;
 }
+
 .icon {
   width: 10px;
   margin-right: 8px;
 }
+
 .icon-half-size {
   width: 7px;
 }
+
 .footer__menu-socials {
   display: flex;
   gap: 25px;
 }
+
 .facebook {
   width: 6px;
 }
+
 .twitter {
   width: 13px;
 }
+
 .linked {
   width: 11px;
 }
+
 .pinterest {
   width: 8px;
 }
+
 .row {
   font-family: "Open Sans", sans-serif;
   color: rgba(200, 200, 200, 0.288);
@@ -267,6 +396,7 @@ p.about-descr {
   width: 1256px;
   text-align: center;
 }
+
 .row__copy {
   margin-top: 21px;
 }
