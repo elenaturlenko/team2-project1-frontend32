@@ -24,6 +24,7 @@
 .projectlorum,
 .about,
 .mission,
+.ourproject,
 .contactus {
   display: flex;
 }
@@ -133,6 +134,104 @@ p.about-descr {
 .mission {
   border: 0.1em solid black;
 }
+
+.ourproject {
+  flex-direction: column;
+}
+
+.ourproject_pic-unit {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(9, 4vw);
+  grid-gap: 30px;
+}
+
+.ourproject_header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd; 
+}
+
+.ourproject__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+}
+ 
+.ourproject_item-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  background-image: url(./assets/images/1/ourproject2.png);
+  
+}
+
+.ourproject_item-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+}
+
+.btn_btnwhite-ourptoject {
+  display: inline-block;
+  width: 222px;
+  height: 71px;
+  color: #ffffff;
+  background-color: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 12px;
+  line-height: 85%;
+  letter-spacing: 0.2em;
+}
+.ourproject_item-2 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+ 
+.ourproject_item-3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+ 
+.ourproject_item-4 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+ 
+.ourproject_item-5{
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+.btn-ourproject {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  grid-row-start: 9;
+  grid-row-end: 10;
+}
+
 .contactus {
   flex-direction: column;
 }
