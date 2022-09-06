@@ -131,6 +131,11 @@ p.about-descr {
   border: none;
 }
 
+.btn_arrow {
+  display: flex;
+  gap: 15px;
+}
+
 .pages-flick {
   padding-top: 65px;
 }
