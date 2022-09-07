@@ -1,0 +1,71 @@
+.maincontainer,
+.ourproject {
+  display: flex;
+}
+
+.maincontainer {
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 73.125em;
+}
+
+.ourproject {
+  flex-direction: column;
+}
+
+.ourproject-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd;
+}
+
+.ourproject_block1 {
+  min-height: 255px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  padding-bottom: 30px;
+}
+
+.ourproject_block1-unit1 {
+  background: url(./assets/images/1/ourproject1_back.png),
+    url(./assets/images/1/ourproject1.png);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+
+.ourproject_block1-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #fff;
+  margin-left: 75px;
+}
+
+.ourproject_btn {
+  display: inline-block;
+  width: 222px;
+  height: 71px;
+  color: #ffffff;
+  background-color: rgba(1, 1, 1, 0);
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 12px;
+  line-height: 85%;
+  letter-spacing: 0.2em;
+  margin-left: 50px;
+}
+
+.ourproject_block2 {
+  display: grid;
+  grid-template-columns: 23% 40% 31%;
+  grid-gap: 30px;
+}
