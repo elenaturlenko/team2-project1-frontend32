@@ -26,26 +26,7 @@
 
 .maincontainer,
 .project1-main {
-  border: 1px solid navy;
   display: flex;
-}
-
-h2 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 64px;
-  line-height: 64px;
-  color: #bdbdbd;
-}
-
-h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 64px;
-  color: #333333;
 }
 
 .maincontainer {
@@ -55,16 +36,94 @@ h3 {
   width: 73.125em;
 }
 
+h2 {
+  margin-left: 130px;
+  margin-top: 100px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 0.1px;
+  color: #bdbdbd;
+}
+
+h3 {
+  margin-left: 130px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 0.1px;
+  color: #333333;
+}
+
+.project1 {
+  flex-direction: column;
+  background-color: #fbfbfb;
+}
+
+.project1__unit {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(19, 4vw);
+  grid-gap: 30px;
+}
+
+.project1__item-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000;
+}
+
+.project1__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.project1__item-1 {
+  grid-column-start: 2;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.project1__item-2 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 14;
+  margin-top: 120px;
+}
+
+.project1__item-3 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 10;
+  margin-top: 100px;
+}
+
+.project1__item-4 {
+  grid-column-start: 2;
+  grid-column-end: 9;
+  grid-row-start: 15;
+  grid-row-end: 19;
+  margin-top: 50px;
+}
+
 .footer {
-  margin: auto;
-  width: 73.125em;
   display: grid;
   grid-template-columns: 250px 150px 380px 270px;
   grid-template-rows: 250px 50px;
   background-color: rgba(0, 0, 0, 0.832);
   height: 300px;
   justify-items: center;
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .footer__logo {

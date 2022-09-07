@@ -52,22 +52,23 @@
 }
 
 .project1__header1 {
-  margin-left: 120px;
+  margin-left: 130px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-size: 64px;
-  line-height: 64px;
+  line-height: 0.1px;
   color: #bdbdbd;
+  margin-top: 100px;
 }
 
 .project1__header2 {
-  margin-left: 120px;
+  margin-left: 130px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
-  line-height: 64px;
+  line-height: 0.1px;
   color: #333333;
 }
 
