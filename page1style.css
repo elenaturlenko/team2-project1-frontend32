@@ -153,8 +153,42 @@ p.about-descr {
 }
 
 .mission {
-  border: 0.1em solid black;
+  flex-direction: column;
 }
+
+.mission_heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd;
+}
+
+.mission_main {
+  display: grid;
+  grid-template-columns: 35% 48%;
+  grid-gap: 17%;
+}
+
+.mission_main-left,
+.mission_main-right {
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+}
+
+.mission_main-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #333333;
+  margin: 0;
+  margin-left: 30px;
+}
+
 
 .ourproject {
   flex-direction: column;
