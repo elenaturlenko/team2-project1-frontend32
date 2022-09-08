@@ -44,7 +44,7 @@ h2 {
   font-style: normal;
   font-weight: 300;
   font-size: 64px;
-  line-height: 64px;
+  line-height: 0.1px;
   color: #bdbdbd;
 }
 
@@ -69,7 +69,7 @@ h3.projectlorum-descr {
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
-  line-height: 64px;
+  line-height: 0.1px;
   color: #333333;
 }
 
@@ -188,7 +188,6 @@ p.about-descr {
   margin: 0;
   margin-left: 30px;
 }
-
 
 .ourproject {
   flex-direction: column;
