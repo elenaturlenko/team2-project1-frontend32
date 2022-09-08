@@ -57,6 +57,7 @@ h2 {
 h2.projectlorum-descr {
   text-transform: uppercase;
   padding-right: 122px;
+  line-height: 0px;
 }
 
 .projectlorum_heading {
@@ -69,7 +70,7 @@ h3.projectlorum-descr {
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
-  line-height: 64px;
+  line-height: 0px;
   color: #333333;
 }
 
