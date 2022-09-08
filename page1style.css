@@ -154,6 +154,7 @@ p.about-descr {
 
 .mission {
   flex-direction: column;
+  margin-bottom: 120px;
 }
 
 .mission_heading {
@@ -192,6 +193,7 @@ p.about-descr {
 
 .ourproject {
   flex-direction: column;
+  margin-bottom: 120px;
 }
 
 .ourproject-heading {
@@ -249,7 +251,6 @@ p.about-descr {
   grid-template-columns: 23% 40% 31%;
   grid-gap: 30px;
 }
-
 
 .contactus {
   flex-direction: column;
