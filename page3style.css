@@ -52,18 +52,18 @@
 }
 
 .project1__header1 {
-  margin-left: 130px;
+  margin-top: 100px;
+  margin-left: 40px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-size: 64px;
   line-height: 0.1px;
   color: #bdbdbd;
-  margin-top: 100px;
 }
 
 .project1__header2 {
-  margin-left: 130px;
+  margin-left: 40px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -98,10 +98,11 @@
 }
 
 .project2__item-1 {
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: 6;
   grid-row-start: 1;
   grid-row-end: 6;
+  margin-left: 40px;
 }
 
 .project2__item-2 {
@@ -180,10 +181,11 @@
 }
 
 .project3__item-1 {
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: 6;
   grid-row-start: 1;
   grid-row-end: 6;
+  margin-left: 40px;
 }
 
 .project3__item-2 {
@@ -257,10 +259,11 @@
 }
 
 .project4__item-1 {
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: 6;
   grid-row-start: 1;
   grid-row-end: 6;
+  margin-left: 40px;
 }
 
 .project4__item-2 {
@@ -290,7 +293,7 @@
   display: flex;
   gap: 35px;
   margin-top: 50px;
-  margin-left: 118px;
+  margin-left: 40px;
 }
 .pages-flick_btn {
   width: 24px;
