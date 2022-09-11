@@ -144,6 +144,15 @@ h4 {
   line-height: 15px;
 }
 
+.address{
+  text-decoration: none;
+  color: #ffffffdb;
+}
+
+.address:hover{
+  text-decoration: underline;
+}
+
 .telefon-sms {
   margin-top: 35px;
   line-height: 40px;

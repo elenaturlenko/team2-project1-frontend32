@@ -93,6 +93,15 @@ h4 {
     line-height: 15px;
 }
 
+.address{
+    text-decoration: none;
+    color: #ffffffdb;
+}
+
+.address:hover{
+    text-decoration: underline;
+}
+
 .telefon-sms {
     margin-top: 35px;
     line-height: 40px;
@@ -143,8 +152,4 @@ h4 {
     margin-top: 21px;
 }
 
-@media screen and (max-width:750px) {
-    h4, .projectlorum-descr{
-        margin-left: 55px;
-    }
-}
+
