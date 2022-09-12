@@ -290,19 +290,27 @@
   }
 
   .header {
-    justify-content: center;
-    width: 25em;
-    padding-right: 2em;
+    width: 20em;
   }
 
   .header__logo {
-    display: none;
-  }
+    width: 2.5em;
+    height: 2em;
+    }
 
   .header__menu {
-    font-size: 0.38em;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.48em;
   }
 
+  .menu-active {
+    border: 0;
+  }
+
+  .footer {
+    display: none;
+  }
 }
 
 /*Адаптивная верстка для мобильных устройств*/

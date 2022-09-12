@@ -485,15 +485,27 @@
     margin-left: 4em;
   }
   .header {
-    width: 30em;
+    width: 28em;
   }
 
   .header__logo {
-    display: none;
-  }
+    width: 2.5em;
+    height: 2em;
+    }
 
   .header__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 0.48em;
+  }
+
+  .menu-active {
+    border: 0;
+  }
+
+  .footer {
+    display: none;
   }
 
 }
