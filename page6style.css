@@ -1,6 +1,8 @@
 .header {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
   margin-top: 20px;
 }
 
@@ -9,6 +11,7 @@
 }
 
 .header__menu {
+  flex-wrap: wrap;
   color: #333333f5;
   text-decoration: none;
   font-size: 0.5em;
@@ -23,11 +26,36 @@
   padding-top: 1px;
 }
 
-.flexcontainer{
+@media screen and (max-width: 750px) {
+  .header {
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 5px;
+  }
+
+  .header__logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .header__menu {
+    display: block;
+    font-size: 0.8em;
+    padding: 5px;
+  }
+
+  .menu-active {
+    border: none;
+    padding: 5px;
+  }
+}
+
+.flexcontainer {
   display: flex;
 }
 
-.gridcontainer{
+.gridcontainer {
   display: grid;
 }
 
@@ -51,36 +79,36 @@ h4 {
   margin-left: 155px;
 }
 
-.contant{
-  font-family: 'Roboto';
+.contant {
+  font-family: "Roboto";
   font-style: normal;
   line-height: 0.1px;
   margin-left: 159px;
 }
 
-.contant__address{
+.contant__address {
   font-size: 0.7em;
   color: #333333b6;
 }
 
-.number{
+.number {
   font-size: 0.8em;
   font-weight: bold;
   margin-top: 20px;
 }
 
-.email{
+.email {
   color: #333333b6;
   text-decoration: none;
   font-size: 0.7em;
   margin-top: 40px;
 }
 
-.email:hover{
+.email:hover {
   text-decoration: underline;
 }
 
-.btn{
+.btn {
   width: 150px;
   height: 50px;
   font-family: "Roboto";
@@ -93,22 +121,48 @@ h4 {
   margin-top: 15px;
 }
 
-.flexcontainer__img{
+.flexcontainer__img {
   width: 600px;
   height: 400px;
   margin-top: 50px;
   margin-left: 207px;
 }
 
-.flexcontainer__pic{
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  right: 169px;
-  top: 258px;
+@media screen and (max-width: 750px) {
+  .flexcontainer {
+    width: 90%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .flexcontainer__img {
+    display: none;
+  }
+
+  .gridcontainer {
+    align-content: start;
+    margin: 20px;
+  }
+
+  .contant {
+    margin: 10px;
+  }
+
+  h4,
+  .projectlorum-descr {
+    font-size: 1.2em;
+    margin: 10px;
+    margin-top: 20px;
+  }
+
+  .btn {
+    margin: 10px;
+  }
 }
 
 .footer {
+  width: 100%;
   display: grid;
   grid-template-columns: 250px 150px 380px 270px;
   grid-template-rows: 250px 50px;
@@ -202,4 +256,35 @@ h4 {
 
 .row__copy {
   margin-top: 21px;
+}
+
+@media screen and (max-width: 750px) {
+  .footer {
+    width: 90%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1% 4fr 1fr;
+    margin-top: 20px;
+  }
+
+  .footer__contacts {
+    justify-self: start;
+  }
+
+  .footer__menu-socials {
+    margin-top: 30px;
+  }
+
+  .footer__menu-meta {
+    line-height: 20px;
+    margin: 10px;
+  }
+
+  .footer__logo,
+  .footer__menu-breadcrumbs,
+  h3.footer__menu,
+  .row {
+    display: none;
+  }
 }
