@@ -23,6 +23,31 @@
   padding-top: 1px;
 }
 
+@media screen and (max-width: 750px) {
+  .header {
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 5px;
+  }
+
+  .header__logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .header__menu {
+    display: block;
+    font-size: 0.8em;
+    padding: 5px;
+  }
+
+  .menu-active {
+    border: none;
+    padding: 5px;
+  }
+}
+
 .maincontainer,
 .projectlorum,
 .about,
@@ -35,7 +60,7 @@
 .maincontainer {
   flex-direction: column;
   justify-content: center;
-  margin: auto;
+  margin: 0 auto;
   width: 73.125em;
 }
 
@@ -84,6 +109,27 @@ h3.projectlorum-descr {
   margin-top: 758px;
 }
 
+@media screen and (max-width: 750px) {
+  .maincontainer {
+    width: 90%;
+    margin: 20px 10px;
+  }
+
+  .projectlorum_rightblock {
+    display: none;
+  }
+
+  .projectlorum {
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectlorum_heading {
+    padding: 20px;
+  }
+}
+
 .about {
   display: grid;
   grid-template-columns: 23% 23% 34%;
@@ -125,11 +171,6 @@ p.about-descr {
   letter-spacing: 0.2em;
 }
 
-.navprojects{
-  text-decoration: none;
-  color: #333333;
-}
-
 .btn_arrow-left,
 .btn_arrow-right {
   width: 53px;
@@ -158,6 +199,33 @@ p.about-descr {
   font-size: 24px;
   line-height: 24px;
   line-height: 85%;
+}
+
+@media screen and (max-width: 750px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .about-1clmn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .about-2clmn {
+    display: none;
+  }
+
+  .pages-flick {
+    padding-top: 10px;
+  }
+
+  .about-descr {
+    text-align: center;
+  }
 }
 
 .mission {
@@ -196,6 +264,12 @@ p.about-descr {
   color: #333333;
   margin: 0;
   margin-left: 30px;
+}
+
+@media screen and (max-width: 750px) {
+  .mission {
+    display: none;
+  }
 }
 
 .ourproject {
@@ -265,9 +339,21 @@ p.about-descr {
   flex-direction: row-reverse;
 }
 
-.allprojects{
-  text-decoration: none;
-  color: #ffffff;
+@media screen and (max-width: 750px) {
+  .ourproject {
+    display: flex;
+    margin: 20px 0;
+  }
+
+  .ourproject_block1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .ourproject_block2 {
+    display: none;
+  }
 }
 
 .contactus {
@@ -326,14 +412,29 @@ p.about-descr {
   resize: none;
 }
 
+@media screen and (max-width: 750px) {
+  .contactus_main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactus_img {
+    display: none;
+  }
+
+  .formcontainer {
+    margin: 0 auto;
+  }
+}
+
 .footer {
   display: grid;
-  grid-template-columns: 20% 12% 30% 17%;
+  grid-template-columns: 250px 150px 380px 270px;
   grid-template-rows: 250px 50px;
   background-color: rgba(0, 0, 0, 0.832);
   height: 300px;
   justify-items: center;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .footer__logo {
@@ -370,15 +471,6 @@ p.about-descr {
   font-size: 0.6em;
   margin-top: 20px;
   line-height: 15px;
-}
-
-.address{
-  text-decoration: none;
-  color: #ffffffdb;
-}
-
-.address:hover{
-  text-decoration: underline;
 }
 
 .telefon-sms {
@@ -423,10 +515,41 @@ p.about-descr {
   grid-column: 1/5;
   margin-left: 120px;
   border-top: 0.5px solid rgba(200, 200, 200, 0.096);
-  width: 139%;
+  width: 1256px;
   text-align: center;
 }
 
 .row__copy {
   margin-top: 21px;
+}
+
+@media screen and (max-width: 750px) {
+  .footer {
+    width: 90%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1% 4fr 1fr;
+    margin-top: 20px;
+  }
+
+  .footer__contacts {
+    justify-self: start;
+  }
+
+  .footer__menu-socials {
+    margin-top: 30px;
+  }
+
+  .footer__menu-meta {
+    line-height: 20px;
+    margin: 10px;
+  }
+
+  .footer__logo,
+  .footer__menu-breadcrumbs,
+  h3.footer__menu,
+  .row {
+    display: none;
+  }
 }
