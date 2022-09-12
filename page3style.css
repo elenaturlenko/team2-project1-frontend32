@@ -147,6 +147,7 @@
   color: #333333;
   margin-left: 20px;
 }
+
 .project3 {
   flex-direction: column;
   background-color: #fbfbfb;
@@ -430,12 +431,71 @@
 
 @media screen and (max-width: 750px) {
  
-.project1__header1 {
-  color: red;
+  .maincontainer {
+    width: 43.75em;
+  }
+  
+  .project1__header1,
+  .project1__header2,
+  .project2__item-header3,
+  .project3__item-header3,
+  .project4__item-header3  {
+    font-size: 2em;
+  }
+
+  .project2__item-1,
+  .project3__item-1,
+  .project4__item-1 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    margin-left: 1.5em;
+  }
+  
+  .project2__item-2,
+  .project3__item-2,
+  .project4__item-2  {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;
+  }
+  
+  .project2__item-3,
+  .project3__item-3,
+  .project4__item-3 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 8;
+  }
+  
+  .project2__item-4,
+  .project3__item-4,
+  .project4__item-4 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 89px;
+  }
+
+  .pages-flick {
+    margin-left: 4em;
+  }
+  .header {
+    width: 30em;
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .header__menu {
+    font-size: 0.48em;
+  }
+
 }
 
-.project1__header-unit {
-  background-color: red;
-}
-}
 /*Адаптивная верстка для мобильных устройств*/
