@@ -1,57 +1,56 @@
 .header {
-  margin: auto;
   display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
+  justify-content: space-between;
+  width: 73.125em;
+  margin-top: 1.25em;
 }
 
 .header__logo {
-  width: 45px;
+  width: 2.81em;
+  margin-left: 4.38em;
 }
 
 .header__menu {
   color: #333333f5;
   text-decoration: none;
   font-size: 0.5em;
-  padding: 25px;
+  padding: 1.56em;
   font-family: "Roboto", sans-serif;
 }
 
 .menu-active {
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  padding-bottom: 1px;
-  padding-top: 1px;
-}
-
-.maincontainer,
-.project1-main {
-  display: flex;
+  border-bottom: 0.06em solid black;
+  border-top: 0.06em solid black;
+  padding-bottom: 0.06em;
+  padding-top: 0.06em;
 }
 
 .maincontainer {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   margin: auto;
   width: 73.125em;
 }
 
-h2 {
-  margin-top: 100px;
+.project1-heading__header1 {
+  margin-top: 1.5em;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
-  font-size: 64px;
-  line-height: 0.1px;
+  font-size: 4em;
+  line-height: 0.05em;
   color: #bdbdbd;
 }
 
-h3 {
+.project1-heading__header2 {
+  margin-top: 1.2em;
+  margin-bottom: 1.5em;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
-  line-height: 0.1px;
+  font-size: 4em;
+  line-height: 0.1em;
   color: #333333;
 }
 
@@ -64,22 +63,22 @@ h3 {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(19, 4vw);
-  grid-gap: 30px;
+  grid-gap: 1.88em;
 }
 
 .project1__item-text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 25px;
+  font-size: 1em;
+  line-height: 1.56em;
   color: #000;
 }
 
 .project1__img {
+  display: block;
   height: auto;
   object-fit: cover;
-  display: block;
 }
 
 .project1__item-1 {
@@ -97,7 +96,7 @@ h3 {
   grid-column-end: 5;
   grid-row-start: 6;
   grid-row-end: 14;
-  margin-top: 90px;
+  margin-top: 5.63em    ;
   background: url(./assets/images/4/2.png) no-repeat;
   background-size: cover;
 }
@@ -107,8 +106,8 @@ h3 {
   grid-column-end: 10;
   grid-row-start: 6;
   grid-row-end: 10;
-  margin-top: 80px;
-  margin-right: 30px;
+  margin-top: 5em;
+  margin-right: 3.13em;
 }
 
 .project1__item-4 {
@@ -116,17 +115,17 @@ h3 {
   grid-column-end: 10;
   grid-row-start: 14;
   grid-row-end: 19;
-  margin-top: 20px;
+  margin-top: 1.25em;
 }
 
 .footer {
   display: grid;
-  grid-template-columns: 250px 150px 380px 270px;
+  grid-template-columns: 20% 12% 30% 17%;
   grid-template-rows: 250px 50px;
   background-color: rgba(0, 0, 0, 0.832);
   height: 300px;
   justify-items: center;
-  margin-top: 120px;
+  margin-top: 380px;
 }
 
 .footer__logo {
@@ -163,6 +162,15 @@ h3 {
   font-size: 0.6em;
   margin-top: 20px;
   line-height: 15px;
+}
+
+.address{
+  text-decoration: none;
+  color: #ffffffdb;
+}
+
+.address:hover{
+  text-decoration: underline;
 }
 
 .telefon-sms {
@@ -207,10 +215,102 @@ h3 {
   grid-column: 1/5;
   margin-left: 120px;
   border-top: 0.5px solid rgba(200, 200, 200, 0.096);
-  width: 1256px;
+  width: 139%;
   text-align: center;
 }
 
 .row__copy {
   margin-top: 21px;
 }
+
+/*Адаптивная верстка для мобильных устройств*/
+
+@media screen and (max-width: 750px) {
+ 
+  .maincontainer {
+    width: 43.75em;
+    margin-left: 1em;
+  }
+
+  .project1-heading__header1, 
+  .project1-heading__header2 {
+    font-size: 2em;
+  }
+
+  .project1__unit {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(33, 4vw);
+    grid-gap: 1.88em;
+  }
+  
+  .project1__item-1 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 3em;
+    background: url(./assets/images/4/1.png) no-repeat;
+    background-size: cover;
+  }
+  
+  .project1__item-2 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 14;
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 3em;
+    background: url(./assets/images/4/2.png) no-repeat;
+    background-size: cover;
+  }
+  
+  .project1__item-3 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 12;
+    grid-row-end: 19;
+  }
+  
+  .project1__item-4 {
+   display: none;
+  }
+
+  .project1__item-4-mobile {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 31;
+    grid-row-end: 34;
+    margin-right: 2.5em;
+    background: url(./assets/images/4/3.png) no-repeat;
+    background-size: cover; 
+  }
+
+  .header {
+    width: 20em;
+  }
+
+  .header__logo {
+    width: 2.5em;
+    height: 2em;
+    }
+
+  .header__menu {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.48em;
+  }
+
+  .menu-active {
+    border: 0;
+  }
+
+  .footer {
+    display: none;
+  }
+}
+
+/*Адаптивная верстка для мобильных устройств*/

@@ -125,6 +125,11 @@ p.about-descr {
   letter-spacing: 0.2em;
 }
 
+.navprojects{
+  text-decoration: none;
+  color: #333333;
+}
+
 .btn_arrow-left,
 .btn_arrow-right {
   width: 53px;
@@ -260,6 +265,11 @@ p.about-descr {
   flex-direction: row-reverse;
 }
 
+.allprojects{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .contactus {
   flex-direction: column;
 }
@@ -318,12 +328,12 @@ p.about-descr {
 
 .footer {
   display: grid;
-  grid-template-columns: 250px 150px 380px 270px;
+  grid-template-columns: 20% 12% 30% 17%;
   grid-template-rows: 250px 50px;
   background-color: rgba(0, 0, 0, 0.832);
   height: 300px;
   justify-items: center;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .footer__logo {
@@ -360,6 +370,15 @@ p.about-descr {
   font-size: 0.6em;
   margin-top: 20px;
   line-height: 15px;
+}
+
+.address{
+  text-decoration: none;
+  color: #ffffffdb;
+}
+
+.address:hover{
+  text-decoration: underline;
 }
 
 .telefon-sms {
@@ -404,7 +423,7 @@ p.about-descr {
   grid-column: 1/5;
   margin-left: 120px;
   border-top: 0.5px solid rgba(200, 200, 200, 0.096);
-  width: 1256px;
+  width: 139%;
   text-align: center;
 }
 
