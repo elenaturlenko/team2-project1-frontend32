@@ -120,21 +120,21 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 15.62em 9.38em 23.75em 16.88em;
-  grid-template-rows: 15.62em 3.13em;
+  grid-template-columns: 20% 12% 30% 17%;
+  grid-template-rows: 250px 50px;
   background-color: rgba(0, 0, 0, 0.832);
-  height: 18.75em;
+  height: 300px;
   justify-items: center;
-  margin-top: 5em;
+  margin-top: 380px;
 }
 
 .footer__logo {
-  width: 5.63em;
-  padding-top: 2.38em;
+  width: 90px;
+  padding-top: 38px;
 }
 
 .footer__menu {
-  padding-top: 2em;
+  padding-top: 25px;
   color: #ffffffe4;
   font-family: "Roboto", sans-serif;
   font-size: 0.6em;
@@ -145,7 +145,7 @@
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-size: 0.6em;
-  line-height: 3em;
+  line-height: 30px;
 }
 
 .breadcrumbs-email {
@@ -160,8 +160,8 @@
   color: #ffffffdb;
   font-family: "Roboto", sans-serif;
   font-size: 0.6em;
-  margin-top: 1.5em;
-  line-height: 1.8em;
+  margin-top: 20px;
+  line-height: 15px;
 }
 
 .address{
@@ -174,53 +174,53 @@
 }
 
 .telefon-sms {
-  margin-top: 3.5em;
-  line-height: 4.5em;
+  margin-top: 35px;
+  line-height: 40px;
 }
 
 .icon {
-  width: 0.63em;
-  margin-right: 0.5em;
+  width: 10px;
+  margin-right: 8px;
 }
 
 .icon-half-size {
-  width: 0.44em;
+  width: 7px;
 }
 
 .footer__menu-socials {
   display: flex;
-  gap: 1.56em;
+  gap: 25px;
 }
 
 .facebook {
-  width: 0.38em;
+  width: 6px;
 }
 
 .twitter {
-  width: 0.81em;
+  width: 13px;
 }
 
 .linked {
-  width: 0.69em;
+  width: 11px;
 }
 
 .pinterest {
-  width: 0.5em;
+  width: 8px;
 }
 
 .row {
   font-family: "Open Sans", sans-serif;
   color: rgba(200, 200, 200, 0.288);
-  font-size: 0.55em;
+  font-size: 0.5em;
   grid-column: 1/5;
-  margin-left: 7.5em;
-  border-top: 0.03em solid rgba(200, 200, 200, 0.096);
-  width: 200em;
+  margin-left: 120px;
+  border-top: 0.5px solid rgba(200, 200, 200, 0.096);
+  width: 139%;
   text-align: center;
 }
 
 .row__copy {
-  margin-top: 2em;
+  margin-top: 21px;
 }
 
 /*Адаптивная верстка для мобильных устройств*/
