@@ -241,6 +241,15 @@
   line-height: 1.8em;
 }
 
+.address{
+  text-decoration: none;
+  color: #ffffffdb;
+}
+
+.address:hover{
+  text-decoration: underline;
+}
+
 .telefon-sms {
   margin-top: 3.5em;
   line-height: 4.5em;

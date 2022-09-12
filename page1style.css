@@ -125,6 +125,11 @@ p.about-descr {
   letter-spacing: 0.2em;
 }
 
+.navprojects{
+  text-decoration: none;
+  color: #333333;
+}
+
 .btn_arrow-left,
 .btn_arrow-right {
   width: 53px;
@@ -260,6 +265,11 @@ p.about-descr {
   flex-direction: row-reverse;
 }
 
+.allprojects{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .contactus {
   flex-direction: column;
 }
@@ -360,6 +370,15 @@ p.about-descr {
   font-size: 0.6em;
   margin-top: 20px;
   line-height: 15px;
+}
+
+.address{
+  text-decoration: none;
+  color: #ffffffdb;
+}
+
+.address:hover{
+  text-decoration: underline;
 }
 
 .telefon-sms {
