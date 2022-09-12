@@ -309,6 +309,31 @@
   }
 
   .footer {
+    width: 90%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1% 4fr 1fr;
+    margin-top: 20px;
+  }
+
+  .footer__contacts {
+    justify-self: start;
+  }
+
+  .footer__menu-socials {
+    margin-top: 30px;
+  }
+
+  .footer__menu-meta {
+    line-height: 20px;
+    margin: 10px;
+  }
+
+  .footer__logo,
+  .footer__menu-breadcrumbs,
+  h3.footer__menu,
+  .row {
     display: none;
   }
 }
