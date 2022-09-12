@@ -25,12 +25,85 @@
   padding-top: 0.06em;
 }
 
-.maincontainer,
-.project1-main {
-  display: flex;
+/*Адаптивная верстка для мобильных устройств*/
+
+@media screen and (max-width: 750px) {
+  .maincontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 46.88em;
+  }
+  
+  .project1 {
+    flex-direction: column;
+    background-color: #fbfbfb;
+  }
+  
+  .project1__unit {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1vw);
+    grid-gap: 1.88em;
+  }
+  
+  .project1__item-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.56em;
+    color: #000;
+  }
+  
+  .project1__img {
+    display: block;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .project1__item-1 {
+    max-width: 100%;
+    max-height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background: url(./assets/images/4/1.png) no-repeat;
+    background-size: cover;
+  }
+  
+  .project1__item-2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 14;
+    margin-top: 5.63em    ;
+    background: url(./assets/images/4/2.png) no-repeat;
+    background-size: cover;
+  }
+  
+  .project1__item-3 {
+    grid-column-start: 5;
+    grid-column-end: 10;
+    grid-row-start: 6;
+    grid-row-end: 10;
+    margin-top: 5em;
+    margin-right: 3.13em;
+  }
+  
+  .project1__item-4 {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 14;
+    grid-row-end: 19;
+    margin-top: 1.25em;
+  }
 }
+/*Адаптивная верстка для мобильных устройств*/
 
 .maincontainer {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   margin: auto;

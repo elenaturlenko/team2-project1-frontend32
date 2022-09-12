@@ -412,3 +412,17 @@
 .row__copy {
   margin-top: 2em;
 }
+
+/*Адаптивная верстка для мобильных устройств*/
+
+@media screen and (max-width: 750px) {
+ 
+.project1__header1 {
+  color: red;
+}
+
+.project1__header-unit {
+  background-color: red;
+}
+}
+/*Адаптивная верстка для мобильных устройств*/
